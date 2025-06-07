@@ -1,7 +1,28 @@
-@import url('../Vendor/normalize.css');
+@import url("../Vendor/normalize.css");
 
-@import url('../Blocks/root.css');
+@import url("../Blocks/root.css");
 
-@import url('../Blocks/title.css');
-@import url('../Blocks/link.css');
-@import url('../Blocks/videos.css');
+@import url("../Blocks/title.css");
+@import url("../Blocks/link.css");
+@import url("../Blocks/videos.css");
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.recipes {
+}
+
+.reservation {
+}
+
+.footer {
+}
