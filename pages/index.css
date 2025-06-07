@@ -1,12 +1,3 @@
-@import url("../Vendor/normalize.css");
-
-@import url("../Blocks/root.css");
-
-@import url("../Blocks/title.css");
-@import url("../Blocks/link.css");
-@import url("../Blocks/videos.css");
-@import url("../blocks/page.css");
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
