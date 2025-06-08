@@ -33,9 +33,15 @@
             alt="Coffee Shop Logo"
           />
           <ul class="nav__links">
-            <li class="nav__link">Receitas</li>
-            <li class="nav__link">Reservar uma mesa</li>
-            <li class="nav__link">Contatos</li>
+            <li>
+              <a class="nav__link" href="#recipes">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">Contatos</a>
+            </li>
           </ul>
         </nav>
         <div class="header__content">
@@ -62,14 +68,54 @@
           </p>
         </div>
       </header>
-
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <div class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </div>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/aGwhG24sv4s?si=Ss_94xBF3SfWKnBj"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption-title">
+                  BOLO DE CENOURA FOFINHO
+                </p>
+                <p class="recipes__video-caption-time">~9 min</p>
+              </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/QFMxJWh3mqE?si=QoGENfI9aWzmNY74"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption-title">
+                  BOLO DE CHOCOLATE FÁCIL
+                </p>
+                <p class="recipes__video-caption-time">~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts"></footer>
     </div>
   </body>
 </html>
